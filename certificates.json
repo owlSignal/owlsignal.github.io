@@ -1,0 +1,230 @@
+[
+  {
+    "alt": "google_cybersecurity",
+    "title": "Google Cybersecurity",
+    "category": "Google",
+    "url": "https://coursera.org/share/61dcb0bb86f0f4c2265fc89b6145aab2"
+  },
+  {
+    "alt": "foundations_cybersecurity",
+    "title": "Foundations of Cybersecurity",
+    "category": "Google",
+    "url": "https://example.com/linux_fundamentals_2_cert"
+  },
+  {
+    "alt": "manage_security_risks",
+    "title": "Manage Security Risks",
+    "category": "Google",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "networks_network_security",
+    "title": "Networks and Network Security",
+    "category": "Google",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "manage_security_risks",
+    "title": "Manage Security Risks",
+    "category": "Google",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "assets_threats_vulnerabilities",
+    "title": "Assets, Threats, and Vulnerabilities",
+    "category": "Google",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "detection_response",
+    "title": "Detection and Response",
+    "category": "Google",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "automate_cybersecurity_tasks_python",
+    "title": "Automate Cybersecurity Tasks with Python",
+    "category": "Google",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "prepare_cybersecurity_jobs",
+    "title": "Prepare for Cybersecurity Jobs",
+    "category": "Google",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "introduction_git_github",
+    "title": "Introduction to Git and GitHub",
+    "category": "Google",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "access-control-basics",
+    "title": "access-control-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "active-directory-basics",
+    "title": "active-directory-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "antivirus-basics",
+    "title": "antivirus-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "asymmetric-cryptography",
+    "title": "asymmetric-cryptography",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "bash-scripting-basics",
+    "title": "bash-scripting-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "cryptographic-hash-functions",
+    "title": "cryptographic-hash-functions",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "cryptography-basics",
+    "title": "cryptography-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "data-backup-and-recovery",
+    "title": "data-backup-and-recovery",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "firewall-basics",
+    "title": "firewall-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "group-policy-basics",
+    "title": "group-policy-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "ids-basics",
+    "title": "ids-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "ip-addressing-basics",
+    "title": "ip-addressing-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "linux-cli-basics",
+    "title": "linux-cli-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "Linux-file-system-basics",
+    "title": "Linux-file-system-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "network-device-basics",
+    "title": "network-device-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "network-reference-models",
+    "title": "network-reference-models",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "network-troubleshooting-basics",
+    "title": "network-troubleshooting-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "nmap-basics",
+    "title": "nmap-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "patching-basics",
+    "title": "patching-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "powershell-basics",
+    "title": "powershell-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "python-basics",
+    "title": "python-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "symmetric-cryptography",
+    "title": "symmetric-cryptography",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "vpn-basics",
+    "title": "vpn-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "vulnerability-scanner-basics",
+    "title": "vulnerability-scanner-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "windows-cli-basics",
+    "title": "windows-cli-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "windows-file-system-basics",
+    "title": "windows-file-system-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "windows-services",
+    "title": "windows-services",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
+    "alt": "wireshark-basics",
+    "title": "wireshark-basics",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  }
+]

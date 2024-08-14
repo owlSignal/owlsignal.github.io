@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anthony Awoyele - Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+ 
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Anthony Awoyele"
+              width="80"
+              style="border-radius: 20%"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Anthony Awoyele">Anthony Awoyele</h1>
+
+            <p class="title">Cybersecurity Professional</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:awoyele.a@gmail.com" class="contact-link"
+                  >awoyele.a@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Fullerton, California, USA</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-medium"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+        -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+-->
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Certificates</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am a motivated security professional seeking an entry-level
+              Cybersecurity position to apply my skills in network security,
+              security policy, and organizational risk management.
+            </p>
+
+            <p>
+              As a cybersecurity professional, I am inquisitive about how
+              systems work and driven to understand their intricacies. I value
+              safeguarding sensitive information and am committed to developing
+              the skills needed to identify and mitigate potential risks. My
+              passion for continuous learning, strong attention to detail, and
+              ability to communicate effectively with others will enable me to
+              contribute to the security goals of an organization. By honing my
+              technical skills and applying my natural curiosity, I aim to
+              become a capable analyst who can proactively strengthen an
+              organization's defenses against evolving cyber threats.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm Doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Learning and Development
+                  </h4>
+
+                  <p class="service-item-text">
+                    Deepening my cybersecurity expertise through diverse
+                    learning methods, including podcasts and online courses,
+                    while cultivating a security-oriented mindset for everyday
+                    scenarios.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI Exploration</h4>
+
+                  <p class="service-item-text">
+                    Keeping pace with cutting-edge AI advancements across STEM
+                    fields, developing practical AI applications for daily use,
+                    and envisioning AI's role in shaping humanity's future.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cryptocurrency</h4>
+
+                  <p class="service-item-text">
+                    Actively contributing to Decentralized Finance projects as a
+                    community leader, promoting privacy, safety, unity, and
+                    cryptocurrency education.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Personal Development</h4>
+
+                  <p class="service-item-text">
+                    Expanding my worldview through philosophical and historical
+                    readings, while delving into the intricacies of human
+                    behavior and decision-making processes.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - tools
+        -->
+
+          <section class="tools">
+            <h3 class="h3 tools-title">Tools</h3>
+            <ul class="tools-list has-scrollbar" id="toolsList">
+              <!-- Tools will be dynamically inserted here -->
+            </ul>
+          </section>
+
+          <!--
+          - software
+        -->
+
+          <section class="software">
+            <h3 class="h3 software-title">Software</h3>
+            <ul class="software-list has-scrollbar" id="softwareList">
+              <!-- Software will be dynamically inserted here -->
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="portfolio-posts">
+            <ul class="portfolio-posts-list">
+              <li class="portfolio-post-item">
+                <a href="./assets/pdfs/tryhackme_journal.pdf" target="_blank">
+                  <figure class="portfolio-banner-box">
+                    <img
+                      src="./assets/images/tryhackme.png"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="portfolio-content">
+                    <div class="portfolio-meta">
+                      <p class="portfolio-category">Portfolio</p>
+                    </div>
+
+                    <h3 class="h3 portfolio-item-title">TryHackMe Journal</h3>
+                    <p class="portfolio-text">
+                      This journal documents my progress and learnings from
+                      different TryHackMe rooms. Each entry contains key
+                      takeaways, commonly used commands, and practical
+                      applications. My experience with TryHackMe has enhanced my
+                      understanding of Linux and Windows fundamentals, network
+                      protocols, incident handling, and log analysis.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="portfolio-post-item">
+                <a
+                  href="./assets/pdfs/incident_handler_journal.pdf"
+                  target="_blank"
+                >
+                  <figure class="portfolio-banner-box">
+                    <img
+                      src="./assets/images/incident.png"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="portfolio-content">
+                    <div class="portfolio-meta">
+                      <p class="portfolio-category">Portfolio</p>
+                    </div>
+
+                    <h3 class="h3 portfolio-item-title">
+                      Incident Handler’s Journal
+                    </h3>
+
+                    <p class="portfolio-text">
+                      This project demonstrates my ability to clearly,
+                      concisely, and easily document a security event/incident.
+                      This journal allows me to visualize my cybersecurity
+                      journey and improve my overall skills.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="portfolio-post-item">
+                <a
+                  href="./assets/pdfs/vulnerable_system_analysis.pdf"
+                  target="_blank"
+                >
+                  <figure class="portfolio-banner-box">
+                    <img
+                      src="./assets/images/vulnerableanalysis.png"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="portfolio-content">
+                    <div class="portfolio-meta">
+                      <p class="portfolio-category">Portfolio</p>
+                    </div>
+
+                    <h3 class="h3 portfolio-item-title">
+                      Vulnerable System Analysis
+                    </h3>
+
+                    <p class="portfolio-text">
+                      This project showcases my skills in vulnerability
+                      assessment, risk analysis, and developing security
+                      solutions for businesses.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="portfolio-post-item">
+                <a href="./assets/pdfs/sql_query.pdf" target="_blank">
+                  <figure class="portfolio-banner-box">
+                    <img
+                      src="./assets/images/sql.png"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="portfolio-content">
+                    <div class="portfolio-meta">
+                      <p class="portfolio-category">Portfolio</p>
+                    </div>
+
+                    <h3 class="h3 portfolio-item-title">SQL Query</h3>
+
+                    <p class="portfolio-text">
+                      This project highlights my ability to write complex SQL
+                      queries for retrieving and manipulating data from
+                      databases. The queries demonstrate my expertise in
+                      database management, data analysis, and the use of SQL for
+                      various cybersecurity tasks.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+-->
+
+        <!--
+        - #CERTIFICATES
+    -->
+
+        <article class="certificates" data-page="certificates">
+          <header>
+            <h2 class="h2 article-title">Certificates</h2>
+          </header>
+
+          <section class="certificates">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn="all">All</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn="google">Google</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn="cybrary">Cybrary</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn="tryhackme">TryHackMe</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn="isc2">ISC2</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn="aws">AWS</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn="coursera">Coursera</button>
+              </li>
+            </ul>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button class="active" data-select-btn="all">All</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-btn="google">Google</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-btn="cybrary">Cybrary</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-btn="tryhackme">TryHackMe</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-btn="isc2">ISC2</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-btn="aws">AWS</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-btn="coursera">Coursera</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="certificate-list" id="certificateList">
+              <!-- Certificates will be dynamically inserted here -->
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

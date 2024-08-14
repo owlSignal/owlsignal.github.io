@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Wireshark",
+    "image": "wireshark.png"
+  },
+  {
+    "name": "Tcpdump",
+    "image": "tcpdump.png"
+  },
+  {
+    "name": "Splunk",
+    "image": "splunk.png"
+  },
+  {
+    "name": "Suricata",
+    "image": "suricata.png"
+  },
+  {
+    "name": "Chronicle",
+    "image": "chronicle.png"
+  },
+  {
+    "name": "Windows Registry Explorer",
+    "image": "windows_registry.png"
+  },
+  {
+    "name": "Greenbone",
+    "image": "greenbone.png"
+  },
+  {
+    "name": "TryHackMe",
+    "image": "thm.png"
+  }
+]
