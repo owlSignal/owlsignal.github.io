@@ -60,6 +60,12 @@
     "url": "https://example.com/linux_fundamentals_3_cert"
   },
   {
+    "alt": "it-and-cybersecurity-foundations",
+    "title": "IT and Cybersecurity Foundations",
+    "category": "Cybrary",
+    "url": "https://example.com/linux_fundamentals_3_cert"
+  },
+  {
     "alt": "access-control-basics",
     "title": "access control basics",
     "category": "Cybrary",
@@ -234,7 +240,7 @@
     "url": "https://example.com/linux_fundamentals_3_cert"
   },
   {
-    "alt": "developing_project_schedule",
+    "alt": "project_schedule",
     "title": "Developing a Project Schedule",
     "category": "Coursera",
     "url": "https://example.com/linux_fundamentals_3_cert"
@@ -248,7 +254,7 @@
   {
     "alt": "pre-assessment",
     "title": "Course pre-assessment",
-    "category": "Coursera",
+    "category": "ISC2",
     "url": "https://example.com/linux_fundamentals_3_cert"
   },
   {

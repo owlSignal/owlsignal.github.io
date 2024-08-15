@@ -497,6 +497,42 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+/**
+ * #profile 
+ */
+
+ .profile-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.profile-buttons .button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: var(--light-gray);
+  text-decoration: none;
+  border: 2px solid var(--forest-green);
+  border-radius: 10px;
+  transition: all var(--transition-1);
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+}
+
+.profile-buttons .button:hover {
+  background-color: var(--forest-green);
+  color: var(--white-1);
+  box-shadow: var(--shadow-1);
+}
+
+.profile-buttons .button ion-icon {
+  margin-right: 10px;
+  font-size: var(--fs-5);
+}
 
 
 /**
